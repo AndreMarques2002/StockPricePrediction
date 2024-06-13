@@ -29,3 +29,18 @@ Clone este repositório e instale os pacotes necessários:
 git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
 pip install -r requirements.txt
+
+Uso
+Execute o notebook previsao_precos_acoes.ipynb no Google Colab ou em sua máquina local para reproduzir os resultados.
+
+Coleta e Preparação dos Dados
+Baixamos os dados históricos de preços de ações da Apple usando a biblioteca yfinance.
+
+python
+Copiar código
+import pandas as pd
+import yfinance as yf
+
+ticker = 'AAPL'
+data = yf.download(ticker, start='2010-01-01', end='2023-01-01')
+data.head()
