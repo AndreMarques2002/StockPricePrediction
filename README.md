@@ -30,7 +30,7 @@ git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
 pip install -r requirements.txt
 
-Uso
+##Uso
 Execute o notebook previsao_precos_acoes.ipynb no Google Colab ou em sua máquina local para reproduzir os resultados.
 
 Coleta e Preparação dos Dados
