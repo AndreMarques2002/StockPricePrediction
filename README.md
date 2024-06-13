@@ -2,6 +2,8 @@
 
 ## Introdução
 Este projeto utiliza dados históricos de preços de ações da Apple (AAPL) para construir um modelo de Machine Learning capaz de prever os preços de fechamento das ações. O projeto abrange desde a coleta e preparação dos dados até a construção, treinamento, avaliação e visualização dos resultados do modelo.
+## Link do projeto: https://colab.research.google.com/drive/1XsFyJoqppqP1yEm-tJ5Q6cT5XRBzok7J?usp=sharing
+
 
 ## Estrutura do Projeto
 1. **Coleta e Preparação dos Dados**
@@ -26,21 +28,6 @@ Este projeto utiliza dados históricos de preços de ações da Apple (AAPL) par
 Clone este repositório e instale os pacotes necessários:
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clone https://github.com/AndreMarques2002/StockPricePrediction.git
+cd StockPricePrediction
 pip install -r requirements.txt
-
-##Uso
-Execute o notebook previsao_precos_acoes.ipynb no Google Colab ou em sua máquina local para reproduzir os resultados.
-
-Coleta e Preparação dos Dados
-Baixamos os dados históricos de preços de ações da Apple usando a biblioteca yfinance.
-
-python
-Copiar código
-import pandas as pd
-import yfinance as yf
-
-ticker = 'AAPL'
-data = yf.download(ticker, start='2010-01-01', end='2023-01-01')
-data.head()
