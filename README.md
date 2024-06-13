@@ -2,7 +2,8 @@
 
 ## Introdução
 Este projeto utiliza dados históricos de preços de ações da Apple (AAPL) para construir um modelo de Machine Learning capaz de prever os preços de fechamento das ações. O projeto abrange desde a coleta e preparação dos dados até a construção, treinamento, avaliação e visualização dos resultados do modelo.
-## Link do projeto: https://colab.research.google.com/drive/1XsFyJoqppqP1yEm-tJ5Q6cT5XRBzok7J?usp=sharing
+
+Link do projeto: https://colab.research.google.com/drive/1XsFyJoqppqP1yEm-tJ5Q6cT5XRBzok7J?usp=sharing
 
 
 ## Estrutura do Projeto
